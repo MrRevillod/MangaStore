@@ -21,6 +21,7 @@
     width: 70%;
     height: 20%;
     object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.409) 5px 6px 10px;
 }
 
 .manga-card__title,

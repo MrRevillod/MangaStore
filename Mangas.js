@@ -6,7 +6,7 @@ const data = [{
     "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
     "Stock": 10,
     "Estado": "Disponible",
-    "Imagen": "./img/portada.png",
+    "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK1.png",
     "Precio": 8.990
 },
 {
@@ -17,7 +17,7 @@ const data = [{
     "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
     "Stock": 10,
     "Estado": "Disponible",
-    "Imagen": "./img/portada.png",
+    "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK2.png",
     "Precio": 8.990
 },
 {
@@ -28,7 +28,7 @@ const data = [{
     "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
     "Stock": 10,
     "Estado": "Disponible",
-    "Imagen": "./img/portada.png",
+    "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK3.png",
     "Precio": 8.990
 },
 {
@@ -39,7 +39,7 @@ const data = [{
     "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
     "Stock": 10,
     "Estado": "Disponible",
-    "Imagen": "./img/portada.png",
+    "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK4.png",
     "Precio": 8.990
 },
 {
@@ -50,7 +50,7 @@ const data = [{
     "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
     "Stock": 10,
     "Estado": "Disponible",
-    "Imagen": "./img/portada.png",
+    "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK5.png",
     "Precio": 8.990
 },
 {
@@ -61,7 +61,7 @@ const data = [{
     "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
     "Stock": 10,
     "Estado": "Disponible",
-    "Imagen": "./img/portada.png",
+    "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK6.png",
     "Precio": 8.990
 },
 {
@@ -72,7 +72,7 @@ const data = [{
     "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
     "Stock": 10,
     "Estado": "Disponible",
-    "Imagen": "./img/portada.png",
+    "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK7.png",
     "Precio": 8.990
 },
 {
@@ -83,7 +83,7 @@ const data = [{
     "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
     "Stock": 10,
     "Estado": "Disponible",
-    "Imagen": "./img/portada.png",
+    "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK8.png",
     "Precio": 8.990
 },
 {
@@ -94,7 +94,7 @@ const data = [{
     "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
     "Stock": 10,
     "Estado": "Disponible",
-    "Imagen": "./img/portada.png",
+    "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK9.png",
     "Precio": 8.990
 },
 {
@@ -105,7 +105,7 @@ const data = [{
     "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
     "Stock": 10,
     "Estado": "Disponible",
-    "Imagen": "./img/portada.png",
+    "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK10.png",
     "Precio": 8.990
 },
 {
@@ -116,7 +116,7 @@ const data = [{
     "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
     "Stock": 10,
     "Estado": "Disponible",
-    "Imagen": "./img/portada.png",
+    "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK11.png",
     "Precio": 8.990
 },
 {
@@ -127,7 +127,7 @@ const data = [{
     "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
     "Stock": 10,
     "Estado": "Disponible",
-    "Imagen": "./img/portada.png",
+    "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK12.png",
     "Precio": 8.990
 },
 {
@@ -138,7 +138,7 @@ const data = [{
     "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
     "Stock": 10,
     "Estado": "Disponible",
-    "Imagen": "./img/portada.png",
+    "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK13.png",
     "Precio": 8.990
 },
 {
@@ -149,7 +149,7 @@ const data = [{
     "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
     "Stock": 10,
     "Estado": "Disponible",
-    "Imagen": "./img/portada.png",
+    "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK14.png",
     "Precio": 8.990
 },
 {
@@ -160,7 +160,7 @@ const data = [{
     "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
     "Stock": 10,
     "Estado": "Disponible",
-    "Imagen": "./img/portada.png",
+    "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK15.png",
     "Precio": 8.990
 },
 {
@@ -171,7 +171,7 @@ const data = [{
     "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
     "Stock": 10,
     "Estado": "Disponible",
-    "Imagen": "./img/portada.png",
+    "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK16.png",
     "Precio": 8.990
 },
 {
@@ -182,7 +182,7 @@ const data = [{
     "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
     "Stock": 10,
     "Estado": "Disponible",
-    "Imagen": "./img/portada.png",
+    "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK17.png",
     "Precio": 8.990
 },
 {
@@ -193,106 +193,172 @@ const data = [{
     "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
     "Stock": 10,
     "Estado": "Disponible",
-    "Imagen": "./img/portada.png",
+    "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK18.png",
     "Precio": 8.990
 },
 {
-    "Titulo": "Attack on Titan Volumen X",
+    "Titulo": "Attack on Titan Volumen XIX",
     "Autor": "Hajime Isayama",
     "Obra": "Shingeki no Kyojin",
     "Genero": "Noidea",
     "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
     "Stock": 10,
     "Estado": "Disponible",
-    "Imagen": "./img/portada.png",
+    "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK19.png",
     "Precio": 8.990
 },
 {
-    "Titulo": "Attack on Titan Volumen XI",
+    "Titulo": "Attack on Titan Volumen XX",
     "Autor": "Hajime Isayama",
     "Obra": "Shingeki no Kyojin",
     "Genero": "Noidea",
     "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
     "Stock": 10,
     "Estado": "Disponible",
-    "Imagen": "./img/portada.png",
+    "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK20.png",
     "Precio": 8.990
 },
 {
-    "Titulo": "Attack on Titan Volumen XII",
+    "Titulo": "Attack on Titan Volumen XXI",
     "Autor": "Hajime Isayama",
     "Obra": "Shingeki no Kyojin",
     "Genero": "Noidea",
     "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
     "Stock": 10,
     "Estado": "Disponible",
-    "Imagen": "./img/portada.png",
+    "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK21.png",
     "Precio": 8.990
 },
 {
-    "Titulo": "Attack on Titan Volumen XIII",
+    "Titulo": "Attack on Titan Volumen XXIII",
     "Autor": "Hajime Isayama",
     "Obra": "Shingeki no Kyojin",
     "Genero": "Noidea",
     "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
     "Stock": 10,
     "Estado": "Disponible",
-    "Imagen": "./img/portada.png",
+    "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK22.png",
     "Precio": 8.990
 },
 {
-    "Titulo": "Attack on Titan Volumen XIV",
+    "Titulo": "Attack on Titan Volumen XXIV",
     "Autor": "Hajime Isayama",
     "Obra": "Shingeki no Kyojin",
     "Genero": "Noidea",
     "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
     "Stock": 10,
     "Estado": "Disponible",
-    "Imagen": "./img/portada.png",
+    "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK24.png",
     "Precio": 8.990
 },
 {
-    "Titulo": "Attack on Titan Volumen XV",
+    "Titulo": "Attack on Titan Volumen XXV",
     "Autor": "Hajime Isayama",
     "Obra": "Shingeki no Kyojin",
     "Genero": "Noidea",
     "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
     "Stock": 10,
     "Estado": "Disponible",
-    "Imagen": "./img/portada.png",
+    "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK25.png",
     "Precio": 8.990
 },
 {
-    "Titulo": "Attack on Titan Volumen XVI",
+    "Titulo": "Attack on Titan Volumen XXVI",
     "Autor": "Hajime Isayama",
     "Obra": "Shingeki no Kyojin",
     "Genero": "Noidea",
     "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
     "Stock": 10,
     "Estado": "Disponible",
-    "Imagen": "./img/portada.png",
+    "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK26.png",
     "Precio": 8.990
 },
 {
-    "Titulo": "Attack on Titan Volumen XVII",
+    "Titulo": "Attack on Titan Volumen XXVII",
     "Autor": "Hajime Isayama",
     "Obra": "Shingeki no Kyojin",
     "Genero": "Noidea",
     "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
     "Stock": 10,
     "Estado": "Disponible",
-    "Imagen": "./img/portada.png",
+    "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK27.png",
     "Precio": 8.990
 },
 {
-    "Titulo": "Attack on Titan Volumen XVIII",
+    "Titulo": "Attack on Titan Volumen XXVIII",
     "Autor": "Hajime Isayama",
     "Obra": "Shingeki no Kyojin",
     "Genero": "Noidea",
     "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
     "Stock": 10,
     "Estado": "Disponible",
-    "Imagen": "./img/portada.png",
+    "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK28.png",
+    "Precio": 8.990
+},
+{
+    "Titulo": "Attack on Titan Volumen XXIX",
+    "Autor": "Hajime Isayama",
+    "Obra": "Shingeki no Kyojin",
+    "Genero": "Noidea",
+    "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
+    "Stock": 10,
+    "Estado": "Disponible",
+    "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK29.png",
+    "Precio": 8.990
+},
+{
+    "Titulo": "Attack on Titan Volumen XXX",
+    "Autor": "Hajime Isayama",
+    "Obra": "Shingeki no Kyojin",
+    "Genero": "Noidea",
+    "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
+    "Stock": 10,
+    "Estado": "Disponible",
+    "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK30.png",
+    "Precio": 8.990
+},
+{
+    "Titulo": "Attack on Titan Volumen XXXI",
+    "Autor": "Hajime Isayama",
+    "Obra": "Shingeki no Kyojin",
+    "Genero": "Noidea",
+    "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
+    "Stock": 10,
+    "Estado": "Disponible",
+    "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK31.png",
+    "Precio": 8.990
+},
+{
+    "Titulo": "Attack on Titan Volumen XXXII",
+    "Autor": "Hajime Isayama",
+    "Obra": "Shingeki no Kyojin",
+    "Genero": "Noidea",
+    "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
+    "Stock": 10,
+    "Estado": "Disponible",
+    "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK32.png",
+    "Precio": 8.990
+},
+{
+    "Titulo": "Attack on Titan Volumen XXXIII",
+    "Autor": "Hajime Isayama",
+    "Obra": "Shingeki no Kyojin",
+    "Genero": "Noidea",
+    "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
+    "Stock": 10,
+    "Estado": "Disponible",
+    "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK33.png",
+    "Precio": 8.990
+},
+{
+    "Titulo": "Attack on Titan Volumen XXXIV",
+    "Autor": "Hajime Isayama",
+    "Obra": "Shingeki no Kyojin",
+    "Genero": "Noidea",
+    "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
+    "Stock": 10,
+    "Estado": "Disponible",
+    "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK34.png",
     "Precio": 8.990
 }
 ]
