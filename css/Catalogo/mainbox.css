@@ -81,24 +81,6 @@
     display: none;
 }
 
-/* TABS DISPLAY */
-
-#tab_2,
-#tab_3,
-#tab_4,
-#tab_5,
-#tab_6,
-#tab_7,
-#tab_8,
-#tab_9,
-#tab_10,
-#tab_11,
-#tab_12,
-#tab_13,
-#tab_14,
-#tab_15 {
-    display: none;
-}
 
 /* BUTTONS TABS */
 
@@ -113,7 +95,7 @@
 
 
 @media screen and (max-width: 768px) {
-    #tab_1 {
+    #Tab {
         grid-template-columns: 1fr;
     }
 
