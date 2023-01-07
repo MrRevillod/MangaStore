@@ -1,0 +1,22 @@
+.footer {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    background-color: #050505;
+    color: #f5f5f5;
+
+    padding: 2rem;
+
+    height: 40%;
+}
+
+.social-media-logos {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+}

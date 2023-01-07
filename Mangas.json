@@ -1,0 +1,200 @@
+[
+    {
+        "Titulo": "Attack on Titan Volumen I",
+        "Autor": "Hajime Isayama",
+        "Obra": "Shingeki no Kyojin",
+        "Genero": "Noidea",
+        "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
+        "Stock": 10,
+        "Estado": "Disponible",
+        "Imagen": "./img/portada.png",
+        "Precio": 8.990
+    },
+    {
+        "Titulo": "Attack on Titan Volumen II",
+        "Autor": "Hajime Isayama",
+        "Obra": "Shingeki no Kyojin",
+        "Genero": "Noidea",
+        "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
+        "Stock": 10,
+        "Estado": "Disponible",
+        "Imagen": "./img/portada.png",
+        "Precio": 8.990
+    },
+    {
+        "Titulo": "Attack on Titan Volumen III",
+        "Autor": "Hajime Isayama",
+        "Obra": "Shingeki no Kyojin",
+        "Genero": "Noidea",
+        "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
+        "Stock": 10,
+        "Estado": "Disponible",
+        "Imagen": "./img/portada.png",
+        "Precio": 8.990
+    },
+    {
+        "Titulo": "Attack on Titan Volumen IV",
+        "Autor": "Hajime Isayama",
+        "Obra": "Shingeki no Kyojin",
+        "Genero": "Noidea",
+        "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
+        "Stock": 10,
+        "Estado": "Disponible",
+        "Imagen": "./img/portada.png",
+        "Precio": 8.990
+    },
+    {
+        "Titulo": "Attack on Titan Volumen V",
+        "Autor": "Hajime Isayama",
+        "Obra": "Shingeki no Kyojin",
+        "Genero": "Noidea",
+        "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
+        "Stock": 10,
+        "Estado": "Disponible",
+        "Imagen": "./img/portada.png",
+        "Precio": 8.990
+    },
+    {
+        "Titulo": "Attack on Titan Volumen VI",
+        "Autor": "Hajime Isayama",
+        "Obra": "Shingeki no Kyojin",
+        "Genero": "Noidea",
+        "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
+        "Stock": 10,
+        "Estado": "Disponible",
+        "Imagen": "./img/portada.png",
+        "Precio": 8.990
+    },
+    {
+        "Titulo": "Attack on Titan Volumen VII",
+        "Autor": "Hajime Isayama",
+        "Obra": "Shingeki no Kyojin",
+        "Genero": "Noidea",
+        "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
+        "Stock": 10,
+        "Estado": "Disponible",
+        "Imagen": "./img/portada.png",
+        "Precio": 8.990
+    },
+    {
+        "Titulo": "Attack on Titan Volumen VIII",
+        "Autor": "Hajime Isayama",
+        "Obra": "Shingeki no Kyojin",
+        "Genero": "Noidea",
+        "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
+        "Stock": 10,
+        "Estado": "Disponible",
+        "Imagen": "./img/portada.png",
+        "Precio": 8.990
+    },
+    {
+        "Titulo": "Attack on Titan Volumen IX",
+        "Autor": "Hajime Isayama",
+        "Obra": "Shingeki no Kyojin",
+        "Genero": "Noidea",
+        "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
+        "Stock": 10,
+        "Estado": "Disponible",
+        "Imagen": "./img/portada.png",
+        "Precio": 8.990
+    },
+    {
+        "Titulo": "Attack on Titan Volumen X",
+        "Autor": "Hajime Isayama",
+        "Obra": "Shingeki no Kyojin",
+        "Genero": "Noidea",
+        "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
+        "Stock": 10,
+        "Estado": "Disponible",
+        "Imagen": "./img/portada.png",
+        "Precio": 8.990
+    },
+    {
+        "Titulo": "Attack on Titan Volumen XI",
+        "Autor": "Hajime Isayama",
+        "Obra": "Shingeki no Kyojin",
+        "Genero": "Noidea",
+        "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
+        "Stock": 10,
+        "Estado": "Disponible",
+        "Imagen": "./img/portada.png",
+        "Precio": 8.990
+    },
+    {
+        "Titulo": "Attack on Titan Volumen XII",
+        "Autor": "Hajime Isayama",
+        "Obra": "Shingeki no Kyojin",
+        "Genero": "Noidea",
+        "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
+        "Stock": 10,
+        "Estado": "Disponible",
+        "Imagen": "./img/portada.png",
+        "Precio": 8.990
+    },
+    {
+        "Titulo": "Attack on Titan Volumen XIII",
+        "Autor": "Hajime Isayama",
+        "Obra": "Shingeki no Kyojin",
+        "Genero": "Noidea",
+        "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
+        "Stock": 10,
+        "Estado": "Disponible",
+        "Imagen": "./img/portada.png",
+        "Precio": 8.990
+    },
+    {
+        "Titulo": "Attack on Titan Volumen XIV",
+        "Autor": "Hajime Isayama",
+        "Obra": "Shingeki no Kyojin",
+        "Genero": "Noidea",
+        "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
+        "Stock": 10,
+        "Estado": "Disponible",
+        "Imagen": "./img/portada.png",
+        "Precio": 8.990
+    },
+    {
+        "Titulo": "Attack on Titan Volumen XV",
+        "Autor": "Hajime Isayama",
+        "Obra": "Shingeki no Kyojin",
+        "Genero": "Noidea",
+        "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
+        "Stock": 10,
+        "Estado": "Disponible",
+        "Imagen": "./img/portada.png",
+        "Precio": 8.990
+    },
+    {
+        "Titulo": "Attack on Titan Volumen XVI",
+        "Autor": "Hajime Isayama",
+        "Obra": "Shingeki no Kyojin",
+        "Genero": "Noidea",
+        "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
+        "Stock": 10,
+        "Estado": "Disponible",
+        "Imagen": "./img/portada.png",
+        "Precio": 8.990
+    },
+    {
+        "Titulo": "Attack on Titan Volumen XVII",
+        "Autor": "Hajime Isayama",
+        "Obra": "Shingeki no Kyojin",
+        "Genero": "Noidea",
+        "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
+        "Stock": 10,
+        "Estado": "Disponible",
+        "Imagen": "./img/portada.png",
+        "Precio": 8.990
+    },
+    {
+        "Titulo": "Attack on Titan Volumen XVIII",
+        "Autor": "Hajime Isayama",
+        "Obra": "Shingeki no Kyojin",
+        "Genero": "Noidea",
+        "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
+        "Stock": 10,
+        "Estado": "Disponible",
+        "Imagen": "./img/portada.png",
+        "Precio": 8.990
+    }
+]

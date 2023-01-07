@@ -1,0 +1,126 @@
+/* Main box */
+
+.mainbox-tab {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+
+    place-content: center;
+    place-items: center;
+    padding: 1rem 0;
+}
+
+.img-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.manga-card__image {
+    width: 70%;
+    height: 20%;
+    object-fit: cover;
+}
+
+.manga-card__title,
+.manga-card__description {
+    margin-left: 15%;
+}
+
+#card-price {
+    color: rgb(180, 41, 41);
+}
+
+/* End Main box */
+
+.tabs-buttons {
+    margin-top: 2rem;
+}
+
+
+.tabs-buttons>ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.tabs-buttons>ul>.tab-button {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 1rem;
+    height: 1rem;
+
+    padding: 0.5rem;
+    border-radius: 40%;
+
+    font-weight: bold;
+
+    color: #f5f5f5;
+    background-color: rgb(180, 41, 41);
+}
+
+.tabs-buttons>ul>span {
+    display: flex;
+    justify-content: center;
+
+    width: 1rem;
+    height: 1rem;
+
+    padding: 0.5rem;
+
+    font-weight: bold;
+
+    color: #050505;
+
+    display: none;
+}
+
+/* TABS DISPLAY */
+
+#tab_2,
+#tab_3,
+#tab_4,
+#tab_5,
+#tab_6,
+#tab_7,
+#tab_8,
+#tab_9,
+#tab_10,
+#tab_11,
+#tab_12,
+#tab_13,
+#tab_14,
+#tab_15 {
+    display: none;
+}
+
+/* BUTTONS TABS */
+
+.tab-button {
+    cursor: pointer;
+}
+
+#more-tabs {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    #tab_1 {
+        grid-template-columns: 1fr;
+    }
+
+    #search_box {
+        display: none;
+    }
+
+    .filter {
+        display: none;
+    }
+}
