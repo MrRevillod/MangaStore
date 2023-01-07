@@ -7,7 +7,7 @@
         "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
         "Stock": 10,
         "Estado": "Disponible",
-        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK1.png",
+        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/Frontend/assets/Covers/SNK1.png",
         "Precio": 8.990
     },
     {
@@ -18,7 +18,7 @@
         "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
         "Stock": 10,
         "Estado": "Disponible",
-        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK2.png",
+        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/Frontend/assets/Covers/SNK2.png",
         "Precio": 8.990
     },
     {
@@ -29,7 +29,7 @@
         "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
         "Stock": 10,
         "Estado": "Disponible",
-        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK3.png",
+        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/Frontend/assets/Covers/SNK3.png",
         "Precio": 8.990
     },
     {
@@ -40,7 +40,7 @@
         "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
         "Stock": 10,
         "Estado": "Disponible",
-        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK4.png",
+        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/Frontend/assets/Covers/SNK4.png",
         "Precio": 8.990
     },
     {
@@ -51,7 +51,7 @@
         "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
         "Stock": 10,
         "Estado": "Disponible",
-        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK5.png",
+        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/Frontend/assets/Covers/SNK5.png",
         "Precio": 8.990
     },
     {
@@ -62,7 +62,7 @@
         "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
         "Stock": 10,
         "Estado": "Disponible",
-        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK6.png",
+        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/Frontend/assets/Covers/SNK6.png",
         "Precio": 8.990
     },
     {
@@ -73,7 +73,7 @@
         "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
         "Stock": 10,
         "Estado": "Disponible",
-        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK7.png",
+        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/Frontend/assets/Covers/SNK7.png",
         "Precio": 8.990
     },
     {
@@ -84,7 +84,7 @@
         "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
         "Stock": 10,
         "Estado": "Disponible",
-        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK8.png",
+        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/Frontend/assets/Covers/SNK8.png",
         "Precio": 8.990
     },
     {
@@ -95,7 +95,7 @@
         "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
         "Stock": 10,
         "Estado": "Disponible",
-        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK9.png",
+        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/Frontend/assets/Covers/SNK9.png",
         "Precio": 8.990
     },
     {
@@ -106,7 +106,7 @@
         "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
         "Stock": 10,
         "Estado": "Disponible",
-        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK10.png",
+        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/Frontend/assets/Covers/SNK10.png",
         "Precio": 8.990
     },
     {
@@ -117,7 +117,7 @@
         "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
         "Stock": 10,
         "Estado": "Disponible",
-        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK11.png",
+        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/Frontend/assets/Covers/SNK11.png",
         "Precio": 8.990
     },
     {
@@ -128,7 +128,7 @@
         "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
         "Stock": 10,
         "Estado": "Disponible",
-        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK12.png",
+        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/Frontend/assets/Covers/SNK12.png",
         "Precio": 8.990
     },
     {
@@ -139,7 +139,7 @@
         "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
         "Stock": 10,
         "Estado": "Disponible",
-        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK13.png",
+        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/Frontend/assets/Covers/SNK13.png",
         "Precio": 8.990
     },
     {
@@ -150,7 +150,7 @@
         "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
         "Stock": 10,
         "Estado": "Disponible",
-        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK14.png",
+        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/Frontend/assets/Covers/SNK14.png",
         "Precio": 8.990
     },
     {
@@ -161,7 +161,7 @@
         "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
         "Stock": 10,
         "Estado": "Disponible",
-        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK15.png",
+        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/Frontend/assets/Covers/SNK15.png",
         "Precio": 8.990
     },
     {
@@ -172,7 +172,7 @@
         "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
         "Stock": 10,
         "Estado": "Disponible",
-        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK16.png",
+        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/Frontend/assets/Covers/SNK16.png",
         "Precio": 8.990
     },
     {
@@ -183,7 +183,7 @@
         "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
         "Stock": 10,
         "Estado": "Disponible",
-        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK17.png",
+        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/Frontend/assets/Covers/SNK17.png",
         "Precio": 8.990
     },
     {
@@ -194,7 +194,7 @@
         "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
         "Stock": 10,
         "Estado": "Disponible",
-        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK18.png",
+        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/Frontend/assets/Covers/SNK18.png",
         "Precio": 8.990
     },
     {
@@ -205,7 +205,7 @@
         "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
         "Stock": 10,
         "Estado": "Disponible",
-        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK19.png",
+        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/Frontend/assets/Covers/SNK19.png",
         "Precio": 8.990
     },
     {
@@ -216,7 +216,7 @@
         "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
         "Stock": 10,
         "Estado": "Disponible",
-        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK20.png",
+        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/Frontend/assets/Covers/SNK20.png",
         "Precio": 8.990
     },
     {
@@ -227,7 +227,7 @@
         "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
         "Stock": 10,
         "Estado": "Disponible",
-        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK21.png",
+        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/Frontend/assets/Covers/SNK21.png",
         "Precio": 8.990
     },
     {
@@ -238,7 +238,7 @@
         "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
         "Stock": 10,
         "Estado": "Disponible",
-        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK22.png",
+        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/Frontend/assets/Covers/SNK22.png",
         "Precio": 8.990
     },
     {
@@ -249,7 +249,7 @@
         "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
         "Stock": 10,
         "Estado": "Disponible",
-        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK24.png",
+        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/Frontend/assets/Covers/SNK24.png",
         "Precio": 8.990
     },
     {
@@ -260,7 +260,7 @@
         "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
         "Stock": 10,
         "Estado": "Disponible",
-        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK25.png",
+        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/Frontend/assets/Covers/SNK25.png",
         "Precio": 8.990
     },
     {
@@ -271,7 +271,7 @@
         "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
         "Stock": 10,
         "Estado": "Disponible",
-        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK26.png",
+        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/Frontend/assets/Covers/SNK26.png",
         "Precio": 8.990
     },
     {
@@ -282,7 +282,7 @@
         "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
         "Stock": 10,
         "Estado": "Disponible",
-        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK27.png",
+        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/Frontend/assets/Covers/SNK27.png",
         "Precio": 8.990
     },
     {
@@ -293,7 +293,7 @@
         "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
         "Stock": 10,
         "Estado": "Disponible",
-        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK28.png",
+        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/Frontend/assets/Covers/SNK28.png",
         "Precio": 8.990
     },
     {
@@ -304,7 +304,7 @@
         "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
         "Stock": 10,
         "Estado": "Disponible",
-        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK29.png",
+        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/Frontend/assets/Covers/SNK29.png",
         "Precio": 8.990
     },
     {
@@ -315,7 +315,7 @@
         "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
         "Stock": 10,
         "Estado": "Disponible",
-        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK30.png",
+        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/Frontend/assets/Covers/SNK30.png",
         "Precio": 8.990
     },
     {
@@ -326,7 +326,7 @@
         "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
         "Stock": 10,
         "Estado": "Disponible",
-        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK31.png",
+        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/Frontend/assets/Covers/SNK31.png",
         "Precio": 8.990
     },
     {
@@ -337,7 +337,7 @@
         "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
         "Stock": 10,
         "Estado": "Disponible",
-        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK32.png",
+        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/Frontend/assets/Covers/SNK32.png",
         "Precio": 8.990
     },
     {
@@ -348,7 +348,7 @@
         "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
         "Stock": 10,
         "Estado": "Disponible",
-        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK33.png",
+        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/Frontend/assets/Covers/SNK33.png",
         "Precio": 8.990
     },
     {
@@ -359,7 +359,7 @@
         "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
         "Stock": 10,
         "Estado": "Disponible",
-        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK34.png",
+        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/Frontend/assets/Covers/SNK34.png",
         "Precio": 8.990
     }
 ]
