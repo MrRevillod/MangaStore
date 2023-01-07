@@ -1,0 +1,35 @@
+html {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+body {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.898);
+    gap: 1rem;
+
+    color: #f5f5f5;
+}
+
+a {
+    text-decoration: none;
+    color: #f5f5f5;
+    cursor: pointer;
+
+    border: solid;
+    border-color: #f5f5f5;
+    border-width: 1px 1px 1px 1px;
+    padding: 0.5rem 1rem;
+
+    box-shadow: 0 0 0.5rem #f5f5f5;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
