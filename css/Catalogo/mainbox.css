@@ -73,6 +73,9 @@
     scrollbar-width: none;
     -ms-overflow-style: none;
 
+    /* padding to dont display scrollbar */
+    padding-bottom: 1rem;
+
 }
 
 .tabs-buttons>hr {
