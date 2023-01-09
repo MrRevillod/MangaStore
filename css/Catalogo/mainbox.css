@@ -135,7 +135,7 @@
 
 @media screen and (max-width: 768px) {
     #Tab {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 
     #search_box {
@@ -154,5 +154,10 @@
     .manga-card__title {
         padding-left: 0%;
         text-align: center;
+    }
+
+    .manga-card h3,
+    .manga-card p {
+        font-size: 0.8rem;
     }
 }
