@@ -119,12 +119,41 @@ const RecognizeTabButton = (data) => {
 
 };
 
-//funcion que reconozca 
+const BottomBarScroll = () => {
+
+    const BottomBar = document.getElementById("Tabs-Btns-ul");
+    const prev = document.getElementById("prev");
+    const next = document.getElementById("next");
+
+    prev.addEventListener("click", () => {
+
+        const interval = setInterval(() => {
+            BottomBar.scrollLeft -= 25;
+        }, 10);
+
+        setTimeout(() => {
+            clearInterval(interval);
+        }, 50);
+
+    });
+
+    next.addEventListener("click", () => {
+
+        const interval = setInterval(() => {
+            BottomBar.scrollLeft += 25;
+        }, 10);
+
+        setTimeout(() => {
+            clearInterval(interval);
+        }, 50);
+
+    });
+};
+
 
 //=> Ejecución de funciones al cargar la pagina
 
 const Tab = document.getElementById("Tab");
-
 
 window.addEventListener("load", async () => {
 
@@ -132,6 +161,8 @@ window.addEventListener("load", async () => {
 
     CreateManga(data, Tab, 0, 9);
     CreateTabsButtons(data);
+
     RecognizeTabButton(data);
+    BottomBarScroll();
 
 });
