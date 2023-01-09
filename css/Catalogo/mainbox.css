@@ -37,6 +37,8 @@
 
 /* End Main box */
 
+
+
 .tabs-buttons {
     margin-top: 2rem;
 }
@@ -57,6 +59,18 @@
     gap: 1rem;
     list-style-position: inside;
     padding-left: 0;
+}
+
+#Tabs-Btns-ul {
+    max-width: 10rem;
+
+    display: flex;
+    flex-direction: row;
+
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    scrollbar-width: none;
 }
 
 .tabs-buttons>hr {

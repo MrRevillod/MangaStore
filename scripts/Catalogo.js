@@ -1,7 +1,7 @@
 "use strict";
 
 const GetData = async () => {
-    const response = await fetch("./json/Mangas.json");
+    const response = await fetch("./json/Manga.json");
     const data = await response.json();
     return data;
 };

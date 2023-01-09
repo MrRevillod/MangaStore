@@ -361,5 +361,93 @@
         "Estado": "Disponible",
         "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK34.png",
         "Precio": 8.990
+    },
+    {
+        "Titulo": "One piece Volumen I",
+        "Autor": "Eiichiro Oda",
+        "Obra": "One Piece",
+        "Genero": "Noidea",
+        "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
+        "Stock": 10,
+        "Estado": "Disponible",
+        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK1.png",
+        "Precio": 8.990
+    },
+    {
+        "Titulo": "One piece Volumen II",
+        "Autor": "Eiichiro Oda",
+        "Obra": "One Piece",
+        "Genero": "Noidea",
+        "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
+        "Stock": 10,
+        "Estado": "Disponible",
+        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK2.png",
+        "Precio": 8.990
+    },
+    {
+        "Titulo": "One piece Volumen I",
+        "Autor": "Eiichiro Oda",
+        "Obra": "One Piece",
+        "Genero": "Noidea",
+        "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
+        "Stock": 10,
+        "Estado": "Disponible",
+        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK1.png",
+        "Precio": 8.990
+    },
+    {
+        "Titulo": "One piece Volumen II",
+        "Autor": "Eiichiro Oda",
+        "Obra": "One Piece",
+        "Genero": "Noidea",
+        "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
+        "Stock": 10,
+        "Estado": "Disponible",
+        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK2.png",
+        "Precio": 8.990
+    },
+    {
+        "Titulo": "One piece Volumen I",
+        "Autor": "Eiichiro Oda",
+        "Obra": "One Piece",
+        "Genero": "Noidea",
+        "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
+        "Stock": 10,
+        "Estado": "Disponible",
+        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK1.png",
+        "Precio": 8.990
+    },
+    {
+        "Titulo": "One piece Volumen II",
+        "Autor": "Eiichiro Oda",
+        "Obra": "One Piece",
+        "Genero": "Noidea",
+        "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
+        "Stock": 10,
+        "Estado": "Disponible",
+        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK2.png",
+        "Precio": 8.990
+    },
+    {
+        "Titulo": "One piece Volumen I",
+        "Autor": "Eiichiro Oda",
+        "Obra": "One Piece",
+        "Genero": "Noidea",
+        "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
+        "Stock": 10,
+        "Estado": "Disponible",
+        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK1.png",
+        "Precio": 8.990
+    },
+    {
+        "Titulo": "One piece Volumen II",
+        "Autor": "Eiichiro Oda",
+        "Obra": "One Piece",
+        "Genero": "Noidea",
+        "Descripcion": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti fugiat necessitatibus omnis corrupti deserunt. Illo perferendis ab, iste quos fugiat natus! Cum suscipit nobis similique officia quas expedita, autem voluptatum!",
+        "Stock": 10,
+        "Estado": "Disponible",
+        "Imagen": "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK2.png",
+        "Precio": 8.990
     }
 ]
