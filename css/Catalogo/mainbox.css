@@ -1,5 +1,3 @@
-/* Main box */
-
 .mainbox-tab {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -55,7 +53,7 @@
 }
 
 #Tabs-Btns-ul {
-    max-width: 14rem;
+    max-width: 8rem;
 
     display: flex;
     flex-direction: row;
@@ -137,6 +135,7 @@
 
 
 
+
 @media screen and (max-width: 768px) {
     #Tab {
         grid-template-columns: 1fr 1fr;
@@ -164,4 +163,5 @@
     .manga-card p {
         font-size: 0.8rem;
     }
+
 }
