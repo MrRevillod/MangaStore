@@ -71,6 +71,8 @@
     overflow-y: hidden;
 
     scrollbar-width: none;
+    -ms-overflow-style: none;
+
 }
 
 .tabs-buttons>hr {
