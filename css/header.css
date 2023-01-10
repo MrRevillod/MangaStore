@@ -146,10 +146,12 @@ header {
 
 
     .header-searchbar-div {
+
+        display: none;
+
         position: absolute;
-        top: 2.5rem;
-        left: 1rem;
-        display: flex;
+        top: 2rem;
+        left: 2rem;
         align-items: center;
         justify-content: center;
         z-index: 1;
@@ -163,16 +165,42 @@ header {
         height: 1.5rem;
         border: none;
         outline: none;
+        padding: 0.5rem 0;
         padding-left: 0.5rem;
-        border-radius: 0.5rem;
+        border-radius: 0.25rem;
 
         box-shadow: 0 0 5px rgba(156, 156, 156, 0.923);
     }
 
+    /* animation from right to left of header-searchbar-div */
+
+    @keyframes header-searchbar-div-block {
+        0% {
+            transform: translateX(100%);
+        }
+
+        100% {
+            transform: translateX(0%);
+        }
+    }
 
 
+    /* animation from left to right of header-searchbar-div */
+
+    @keyframes header-searchbar-div-none {
+        0% {
+            transform: translateX(0%);
+        }
+
+        100% {
+            transform: translateX(100%);
+        }
+    }
 
 }
+
+
+
 
 
 /* End Header */
