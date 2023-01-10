@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./css/Catalogo/mainbox.css">
     <link rel="stylesheet" href="./css/Catalogo/normalize.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/switcher.css">
 
     <link rel="shortcut icon" href="./assets/icons/social-media/icons8-instagram-250.png" type="image/x-icon">
 
@@ -25,26 +26,52 @@
     <!-- <a target="_blank" href="https://icons8.com/icon/hm1Kf7iGtscI/clasificar-izquierda">Clasificar izquierda</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> -->
     <!-- <a target="_blank" href="https://icons8.com/icon/qf4M3FNERRNl/clasificar-derecho">Clasificar derecho</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> -->
 
-    <title>Catalogo mangas</title>
+    <title>Manga Store - Catalogo</title>
 </head>
 
 <body>
     <header id="header">
-        <h1>Manga Store</h1>
-        <img class="hamb-menu-icon" src="./assets/header/icons8-menú-250.png" alt="" width="25px">
+        <!--  ----------  --->
+
+        <!-- Desktop -->
+
+        <div class="header-menu-div">
+            <img src="./assets/header/icons8-menú-250.png" alt="" width="35px">
+        </div>
+
+        <h1 class="Title">Manga Store</h1>
+
+        <div class="header-darkM switcher">
+            <input type="checkbox" id="toggle">
+        </div>
+
+        <!--  ----------  --->
+
+        <!-- Mobile -->
+
+        <div class="header-searchbar-div">
+            <input class="header-searchbar" type="text" placeholder="ENTER para buscar">
+        </div>
+
+        <div class="h-search-icon-div">
+            <i id="header-search-icon" class="fas fa-search"></i>
+        </div>
+
+        <!--  ----------  --->
     </header>
 
     <main>
 
         <section class="top">
             <div class="head">
+
+                <!-- Mobile -->
+
                 <div>
                     <h3 id="catalogo">Cátalogo</h3>
                 </div>
 
-                <div class="container">
-                    <input type="checkbox" id="toggle">
-                </div>
+                <!-- Desktop -->
 
                 <div class="search_box">
                     <input type="text" class="input" placeholder="Buscar...">

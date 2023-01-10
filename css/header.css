@@ -3,7 +3,7 @@
 header {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url("../assets/header/header.png");
     background-position: center;
@@ -14,108 +14,165 @@ header {
     width: 100%;
 }
 
-header>h1 {
-    color: #f5f5f5;
-    font-size: 2.8rem;
+/* Ocultar display de contenido movil */
+
+@media (min-width: 768px) {
+
+    .header-searchbar-div,
+    .h-search-icon-div {
+        display: none;
+    }
+}
+
+/* Menu hamburguesa */
+
+.header-menu-div>img {
+    translate: -3.8rem;
+    align-self: flex-start;
+}
+
+
+/* Titulo */
+
+.Title {
+    font-size: 3rem;
     font-weight: 700;
+    padding: 0rem 0;
+    color: #f5f5f5;
     text-align: center;
-
-    margin-left: auto;
-    padding-left: 4rem;
+    padding-right: 1.5%;
 }
 
+/* Switcher.css */
 
-.hamb-menu-icon {
-    width: 2rem;
-    height: 2rem;
-    margin-left: auto;
-    margin-right: 2rem;
+.header-darkM {
+    padding: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    float: left;
+}
+
+#Headertoggle {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 35px;
+    width: 70px;
+    background-color: #252525;
+    position: absolute;
+    border-radius: 20px;
+    outline: none;
     cursor: pointer;
+
+    box-shadow: 0 0 5px rgba(156, 156, 156, 0.923);
 }
 
-
-.container {
-    display: none;
+#Headertoggle:after {
+    content: "";
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background-color: #ffffff;
+    top: 5px;
+    left: 7px;
+    border-radius: 50%;
 }
 
-@media screen and (max-width: 550px) {
+.dark-theme {
+    background-color: #272727;
+    color: #e5e5e5;
+}
 
-    header {
-        justify-content: start;
+.dark-theme #Headertoggle {
+    background-color: #ffffff;
+}
+
+.dark-theme #Headertoggle:after {
+    background-color: transparent;
+    box-shadow: 10px 10px #15181f;
+    top: -4px;
+    left: 30px;
+}
+
+/* Media query Ipad screen size */
+
+
+@media (min-width: 770px) and (max-width: 811px) {
+    .Title {
+        font-size: 3rem;
     }
 
-    header>h1 {
+    .header-menu-div>img {
+        translate: -3.2rem;
+    }
+
+    .header-darkM {
+        translate: 0.2rem;
+    }
+}
+
+
+/* Media query mobile screen size */
+
+/* media query 0-769 px */
+
+@media (min-width: 250px) and (max-width: 769px) {
+
+    /* Ocultar boton de dark mode */
+
+    .header-menu-div,
+    .header-darkM {
+        display: none;
+    }
+
+    /* Searchbar TOP */
+
+    .header-searchbar-div {
+        display: none;
+    }
+
+    .Title {
         font-size: 2rem;
-        padding: 2rem 0 2rem 0;
-        text-align: start;
-
-        margin-left: 0;
+        padding: 1rem 0;
     }
 
-    .container {
-        width: 10%;
-        height: 2rem;
-        margin-right: 2.5rem;
-        display: block;
+    .header-search-icon {
+        font-weight: bolder;
     }
 
-    #toggle {
-        -webkit-appearance: none;
-        appearance: none;
-        height: 30px;
-        width: 75px;
-        background-color: #15181f;
+    /* .header-searchbar-div position absolute on header */
+
+
+    .header-searchbar-div {
         position: absolute;
-        border-radius: 20px;
+        top: 2.5rem;
+        left: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+        padding: 0.25rem 0rem;
+
+        width: 80%;
+    }
+
+    .header-searchbar-div>input {
+        width: inherit;
+        height: 1.5rem;
+        border: none;
         outline: none;
-        cursor: pointer;
+        padding-left: 0.5rem;
+        border-radius: 0.5rem;
+
+        box-shadow: 0 0 5px rgba(156, 156, 156, 0.923);
     }
 
-    #toggle:after {
-        content: "";
-        position: absolute;
-        height: 20px;
-        width: 20px;
-        background-color: #ffffff;
-        top: 5px;
-        left: 7px;
-        border-radius: 50%;
-    }
 
-    .dark-theme {
-        background-color: #3f3f3f;
-        color: #e5e5e5;
-    }
 
-    .dark-theme #toggle {
-        background-color: #ffffff;
-    }
-
-    .dark-theme #toggle:after {
-        background-color: transparent;
-        box-shadow: 10px 10px #15181f;
-        top: -5px;
-        left: 40px;
-    }
 
 }
-
-@media screen and (max-width: 768px) {
-
-    header {
-        justify-content: space-between;
-    }
-
-    header>h1 {
-        font-size: 2rem;
-        text-align: start;
-        margin-left: 0;
-
-        padding-left: 2.4rem;
-    }
-
-}
-
 
 
 /* End Header */

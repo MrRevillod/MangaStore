@@ -1,12 +1,16 @@
-const switcher = document.getElementById("toggle");
+const switcher = document.getElementsByClassName("switcher");
 const tag = document.getElementsByTagName("body")[0];
 
-toggle.addEventListener("click", (event) => {
-    tag.classList.toggle("dark-theme");
 
-    if (tag.classList.contains("dark-theme")) {
-        document.getElementById("catalogo").style.color = "#F5F5F5";
+for (let i = 0; i < switcher.length; i++) {
+    switcher[i].addEventListener("click", (event) => {
 
-    } else { document.getElementById("catalogo").style.color = "#050505" }
+        tag.classList.toggle("dark-theme");
 
-});
+        if (tag.classList.contains("dark-theme")) {
+            document.getElementById("catalogo").style.color = "#F5F5F5";
+
+        } else { document.getElementById("catalogo").style.color = "#050505" }
+    });
+}
+
