@@ -1,14 +1,12 @@
-.-darkM {
+.nav-darkM {
     padding: 1rem;
-
-    display: flex;
     align-items: center;
     justify-content: flex-start;
 
     float: left;
 }
 
-#toggle {
+#nav-toggle {
     -webkit-appearance: none;
     appearance: none;
     height: 35px;
@@ -22,7 +20,7 @@
     box-shadow: 0 0 5px rgba(156, 156, 156, 0.923);
 }
 
-#toggle:after {
+#nav-toggle:after {
     content: "";
     position: absolute;
     height: 25px;
@@ -38,11 +36,11 @@
     color: #e5e5e5;
 }
 
-.dark-theme #toggle {
+.dark-theme #nav-toggle {
     background-color: #ffffff;
 }
 
-.dark-theme #toggle:after {
+.dark-theme #nav-toggle:after {
     background-color: transparent;
     box-shadow: 10px 10px #15181f;
     top: -4px;

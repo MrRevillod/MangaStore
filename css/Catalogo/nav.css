@@ -102,6 +102,10 @@
     margin-left: -100%;
 }
 
+.nav-darkM {
+    display: none;
+}
+
 /* End Top y Head bar */
 
 
@@ -123,12 +127,27 @@
         display: none;
     }
 
+    .nav-darkM {
+        display: none;
+    }
+
 
 }
 
 @media screen and (max-width: 550px) {
 
-    .search_box {
+    .search_box,
+    .filter {
         display: none;
+    }
+
+    .nav-darkM {
+        padding: 1rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        translate: -3.2rem;
     }
 }
