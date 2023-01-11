@@ -1,3 +1,5 @@
+/* Div principal donde se muestran los mangas */
+
 .mainbox-tab {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -8,12 +10,16 @@
     padding: 1rem 0;
 }
 
+/* Div img */
+
 .img-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
+/* Manga IMG */
 
 .manga-card__image {
     width: 70%;
@@ -22,12 +28,15 @@
     box-shadow: rgba(0, 0, 0, 0.409) 5px 6px 10px;
 }
 
+/* Align title & description */
+
 .manga-card__title,
 .manga-card__description {
     width: 100%;
     padding-left: 15%;
 }
 
+/* Manga price */
 
 #card-price {
     color: rgb(180, 41, 41);
@@ -35,106 +44,7 @@
 
 /* End Main box */
 
-.bottom {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-
-.bottom>.button-bar>ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    list-style-position: inside;
-    padding-left: 0;
-}
-
-#Tabs-Btns-ul {
-    max-width: 8rem;
-
-    display: flex;
-    flex-direction: row;
-
-    overflow-x: auto;
-    overflow-y: hidden;
-
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-
-    /* padding to dont display scrollbar */
-
-}
-
-.bottom>hr {
-    width: 100%;
-}
-
-.bottom>.button-bar>ul>.tab-button {
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    width: 1rem;
-    min-width: 1rem;
-    height: 1rem;
-
-    padding: 0.5rem;
-    border-radius: 40%;
-
-    font-weight: bold;
-
-    color: #f5f5f5;
-    background-color: rgb(180, 41, 41);
-}
-
-.prev-next {
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    width: 1rem;
-    height: 1rem;
-
-    padding: 1rem;
-    border-radius: 40%;
-
-    font-weight: bold;
-
-    color: #f5f5f5;
-    background-color: rgb(180, 41, 41);
-
-    border: none;
-    cursor: pointer;
-}
-
-.button-bar {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 1rem;
-
-    padding-bottom: 1rem;
-
-}
-
-
-/* BUTTONS TABS */
-
-.tab-button {
-    cursor: pointer;
-}
-
-#more-tabs {
-    display: none;
-}
-
-
-
+/* Media query for mobile screens */
 
 @media screen and (max-width: 768px) {
     #Tab {
@@ -162,6 +72,11 @@
     .manga-card h3,
     .manga-card p {
         font-size: 0.8rem;
+    }
+
+    .manga-card__image {
+        width: 90%;
+        height: 100%;
     }
 
 }
