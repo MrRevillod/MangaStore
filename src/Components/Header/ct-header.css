@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url("../../assets/images/hd-bg-img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+    height: 20%;
+}
+
+/* Titulo */
+
+.hd-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #f5f5f5;
+    text-align: center;
+}
+
+@media (min-width: 250px) and (max-width: 769px) {
+
+    /* Ocultar boton de dark mode */
+
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header-menu-div {
+        translate: -2rem;
+    }
+
+    .hd-menu-img {
+        width: 25px;
+    }
+
+    /* Searchbar TOP */
+
+    .hd-title {
+        font-size: 2rem;
+        padding: 1rem 0;
+    }
+
+}

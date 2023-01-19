@@ -1,0 +1,55 @@
+.hd-dark-switcher {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hd-toggle {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 35px;
+    width: 70px;
+    background-color: #252525;
+    position: absolute;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(156, 156, 156, 0.923);
+}
+
+.hd-toggle:after {
+    content: "";
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background-color: #ffffff;
+    top: 5px;
+    left: 7px;
+    border-radius: 50%;
+}
+
+.dark-theme {
+    background-color: #272727;
+    color: #e5e5e5;
+}
+
+.dark-theme .nav-title-h3 {
+    color: #e5e5e5;
+}
+
+.dark-theme .hd-toggle {
+    background-color: #ffffff;
+}
+
+.dark-theme .hd-toggle:after {
+    background-color: transparent;
+    box-shadow: 10px 10px #15181f;
+    top: -4px;
+    left: 30px;
+}
+
+@media (min-width: 250px) and (max-width: 769px) {
+    .hd-dark-switcher {
+        display: none;
+    }
+}

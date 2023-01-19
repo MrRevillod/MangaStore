@@ -1,0 +1,59 @@
+/* Div img */
+
+.img-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Manga IMG */
+
+.manga-card__image {
+    width: 70%;
+    height: 20%;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.409) 5px 6px 10px;
+}
+
+/* Align title & description */
+
+.manga-card__title,
+.manga-card__description {
+    width: 100%;
+    padding-left: 15%;
+}
+
+/* Manga price */
+
+.manga-card_price {
+    color: rgb(180, 41, 41);
+}
+
+/* End Main box */
+
+/* Media query for mobile screens */
+
+@media screen and (max-width: 768px) {
+
+    .manga-card__title,
+    .manga-card__description {
+        width: 100%;
+    }
+
+    .manga-card__title {
+        padding-left: 0%;
+        text-align: center;
+    }
+
+    .manga-card h3,
+    .manga-card p {
+        font-size: 0.8rem;
+    }
+
+    .manga-card__image {
+        width: 90%;
+        height: 100%;
+    }
+
+}

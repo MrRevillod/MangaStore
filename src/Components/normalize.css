@@ -1,0 +1,18 @@
+html {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+.main {
+    padding: 1rem 10% 2rem;
+}
