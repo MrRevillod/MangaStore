@@ -107,7 +107,7 @@ export const Mangas = [
         Estado: "Disponible",
         Imagen: "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK9.png",
         Precio: 8.990
-    }/* ,
+    },
     {
         id: 10,
         Titulo: "Attack on Titan Volumen X",
@@ -395,5 +395,5 @@ export const Mangas = [
         Estado: "Disponible",
         Imagen: "http://pillan.inf.uct.cl/~lrevillod/MangaStore/assets/Covers/SNK34.png",
         Precio: 8.990
-    } */
+    }
 ]

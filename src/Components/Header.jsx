@@ -1,9 +1,7 @@
-import './ct-header.css'
-import './dark-mode-sw.css'
-import '../Sidebar/ct-sidebar.css'
+import '../styles/Header.css';
+import '../styles/dark-mode-sw.css';
 
-
-export const HeaderSwitcher = () => {
+const DarkModeSW = () => {
     const tag = document.getElementsByTagName("body")[0];
     return (
         <div className="hd-dark-switcher">
@@ -19,10 +17,8 @@ export const Header = ({ Title }) => {
                 <img className="hd-menu-img" src="../../src/assets/icons/hd-menu-ico.png" alt="menu-ico" width="35px"
                     onClick={() => Side.classList.toggle("sidebar-none")} />
             </div>
-
             <h1 className="hd-title">{Title}</h1>
-
-            <HeaderSwitcher />
+            <DarkModeSW />
         </header>
     );
 };

@@ -1,0 +1,28 @@
+.paginacion-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.pag-buttons {
+    margin: 0;
+    padding: 0;
+
+    border-radius: 50%;
+    border: 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+}
+
+.pag-buttons:hover {
+    background-color: #E0E0E0;
+}
+
+.pag-number {
+    font-weight: bold;
+}

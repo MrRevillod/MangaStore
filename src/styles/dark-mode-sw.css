@@ -48,6 +48,14 @@
     left: 30px;
 }
 
+.dark-theme .pag-buttons {
+    background-color: #272727;
+}
+
+.dark-theme .pag-buttons:hover {
+    background-color: #2e2e2e;
+}
+
 @media (min-width: 250px) and (max-width: 769px) {
     .hd-dark-switcher {
         display: none;

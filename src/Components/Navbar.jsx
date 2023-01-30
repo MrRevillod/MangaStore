@@ -1,12 +1,12 @@
-import './ct-navbar.css'
+import '../styles/Navbar.css'
 
-export const TopNavbar = ({ Subtitle }) => {
+export const TopNavbar = () => {
     return (
         <div className="nav-main-div" >
             <div className="navbar-div">
 
                 <div className="nav-title-div">
-                    <h3 className="nav-title-h3">{Subtitle}</h3>
+                    <h3 className="nav-title-h3">Catálogo</h3>
                 </div>
 
                 <div className="nav-search-div">

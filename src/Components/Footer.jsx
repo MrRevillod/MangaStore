@@ -1,4 +1,4 @@
-import './pg-footer.css'
+import '../styles/Footer.css'
 
 export const Footer = () => {
     return (

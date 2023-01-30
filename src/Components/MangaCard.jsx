@@ -1,11 +1,10 @@
-import './ct-card.css'
+import '../styles/MangaCard.css'
 
 export const MangaCard = (props) => {
     const FormatPrice = `$${props.Precio}`
 
     return (
         <div className="manga-card">
-
             <div className="manga-card__title">
                 <h3>{props.Titulo}</h3>
             </div>
@@ -18,7 +17,6 @@ export const MangaCard = (props) => {
                 <p>{props.Estado}</p>
                 <h3 className="manga-card_price">{FormatPrice}</h3>
             </div>
-
         </div>
     );
 };
