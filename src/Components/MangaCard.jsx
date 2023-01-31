@@ -14,7 +14,7 @@ export const MangaCard = (props) => {
             </div>
 
             <div className="manga-card__description">
-                <p>{props.Estado}</p>
+                <h4>Stock: {props.Stock}</h4>
                 <h3 className="manga-card_price">{FormatPrice}</h3>
             </div>
         </div>

@@ -26,7 +26,7 @@ export const MangaTab = () => {
                             key={Manga.id}
                             Titulo={Manga.Titulo}
                             Imagen={Manga.Imagen}
-                            Estado={Manga.Estado}
+                            Stock={Manga.Stock}
                             Precio={Manga.Precio}
                         />
                     )
