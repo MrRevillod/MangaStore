@@ -1,3 +1,4 @@
+import { Fragment } from 'react'
 import '../styles/Paginacion.css'
 
 export const Paginacion = ({ Page, setPage, MaxOfTabs }) => {
@@ -11,16 +12,19 @@ export const Paginacion = ({ Page, setPage, MaxOfTabs }) => {
     }
 
     return (
-        <div className="paginacion-div">
-            <button key="prev-btn" className="pag-buttons" onClick={prevPage}>
-                <img src="/src/assets/icons/btn-left.png" alt="" />
-            </button>
+        <>
+            <div className="paginacion-div">
+                <button key="prev-btn" className="pag-buttons" onClick={prevPage}>
+                    <img src="/src/assets/icons/btn-left.png" alt="prev" />
+                </button>
 
-            <p className="pag-number">{Page} de {MaxOfTabs}</p>
+                <p className="pag-number">{Page} de {MaxOfTabs}</p>
 
-            <button key="next-btn" className="pag-buttons" onClick={nextPage}>
-                <img src="/src/assets/icons/btn-right.png" alt="" />
-            </button>
-        </div >
+                <button key="next-btn" className="pag-buttons" onClick={nextPage}>
+                    <img src="/src/assets/icons/btn-right.png" alt="next" />
+                </button>
+            </div >
+            <hr />
+        </>
     )
 }

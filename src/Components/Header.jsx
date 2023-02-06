@@ -18,6 +18,7 @@ export const Header = ({ Title }) => {
                     onClick={() => Side.classList.toggle("sidebar-none")} />
             </div>
             <h1 className="hd-title">{Title}</h1>
+
             <DarkModeSW />
         </header>
     );

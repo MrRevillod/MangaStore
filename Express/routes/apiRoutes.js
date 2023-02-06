@@ -1,7 +1,8 @@
 import { Router } from 'express';
-import { getMangas } from '../controllers/mangaController.js';
+import { getMangas, getMangasWhere } from '../controllers/mangaController.js';
 
 const router = Router();
-router.get('/', getMangas);
+router.get('/mangas', getMangas);
+router.get('/mangas/:phrase', getMangasWhere);
 
 export { router as apiRoutes }

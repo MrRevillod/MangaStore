@@ -52,27 +52,3 @@
 /* End Main box */
 
 /* Media query for mobile screens */
-
-@media screen and (max-width: 768px) {
-
-    .manga-card__title,
-    .manga-card__description {
-        width: 100%;
-    }
-
-    .manga-card__title {
-        padding-left: 0%;
-        text-align: center;
-    }
-
-    .manga-card h3,
-    .manga-card p {
-        font-size: 0.8rem;
-    }
-
-    .manga-card__image {
-        width: 90%;
-        height: 100%;
-    }
-
-}

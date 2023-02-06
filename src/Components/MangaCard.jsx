@@ -18,5 +18,5 @@ export const MangaCard = (props) => {
                 <h3 className="manga-card_price">{FormatPrice}</h3>
             </div>
         </div>
-    );
-};
+    )
+}

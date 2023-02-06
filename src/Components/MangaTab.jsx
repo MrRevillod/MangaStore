@@ -1,12 +1,30 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
-import { Mangas } from '../data/Mangas'
 import { MangaCard } from './MangaCard';
 import { Paginacion } from './Paginacion';
 
 import '../styles/MangaTab.css'
 
 export const MangaTab = () => {
+
+    const [Mangas, setMangas] = useState([])
+
+    const getMangas = async () => {
+        const url = 'http://localhost:3000/api/mangas'
+
+        const response = await fetch(url, {
+            method: 'GET',
+            headers: { 'Content-Type': 'application/json' }
+        })
+
+        const Mangas = await response.json()
+        setMangas(Mangas)
+    }
+
+    useEffect(() => {
+        getMangas()
+    })
+
 
     const [Page, setPage] = useState(1)
     const [NumPerPage, setNumPerPage] = useState(9)
@@ -20,10 +38,10 @@ export const MangaTab = () => {
     return (
         <>
             <section className="mainbox">
-                {dataSlice.map(Manga => {
+                {dataSlice.map((Manga, index) => {
                     return (
                         <MangaCard
-                            key={Manga.id}
+                            key={index}
                             Titulo={Manga.Titulo}
                             Imagen={Manga.Imagen}
                             Stock={Manga.Stock}
