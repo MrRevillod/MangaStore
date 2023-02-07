@@ -1,18 +1,21 @@
+/* Main manga card container */
+
 .manga-card {
     display: flex;
     flex-direction: column;
     align-items: center;
-
     width: 100%;
-
     position: relative;
     transition: all 0.3s ease-in-out;
 }
 
 
-/* IMG DIV CONTAINER*/
+/* --------------------------------------- */
 
-.img-box {
+
+/* Image container */
+
+.manga-card__img-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,74 +31,120 @@
     padding: 1rem 0;
     box-shadow: rgba(0, 0, 0, 0.409) 5px 6px 10px;
 
-    border-radius: 10px;
+    border-radius: 0.8rem;
 }
 
+/* Transition on hover */
+
+.manga-card__img-box:hover {
+    transform: scale(1.03);
+    transition: all 0.4s ease-in-out;
+}
+
+/* Disable transition on mobile */
 
 @media screen and (max-width: 1024px) {
-    .img-box {
+    .manga-card__img-box {
         max-width: 100%;
         max-height: 100%;
     }
+
+    .manga-card__img-box:hover {
+        transform: none;
+    }
 }
 
+/* --------------------------------------- */
 
-/* Manga IMG */
+
+/* Main image*/
 
 .manga-card__image {
     width: 70%;
-    height: 100%;
-    object-fit: cover;
-    box-shadow: rgba(0, 0, 0, 0.409) 5px 6px 10px;
     filter: none;
     transition: filter 0.3s ease-in-out;
 }
 
+.manga-card__image.gray {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease-in-out;
+}
+
+/* --------------------------------------- */
+
+
+
+/* Manga card Bottom container */
 
 .manga-card__bottom {
     display: flex;
     flex-direction: row;
     gap: 1rem;
     width: 70%;
-    align-self: center;
-    justify-self: center;
     margin-top: 1rem;
 }
 
-.manga-card__image.blur {
-    filter: grayscale(100%);
-    transition: filter 0.3s ease-in-out;
+/* media screen with min-width and max-width*/
+
+@media screen and (max-width: 1024px) {
+    .manga-card__bottom {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
 }
 
+@media screen and (max-width: 768px) {
+    .manga-card__bottom {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}
 
-.Cart-Button {
+/* ---------------------------------------- */
+
+
+/* Bottom container: Details button */
+
+.bottom__details-btn {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 85%;
 
-    background-color: #050505;
+    background-color: #1a1a1aeb;
     color: #F5F5F5;
 
-    font-weight: 500;
-    font-size: 1.2rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+
     height: 2.5rem;
     border: none;
     border-radius: 0.4rem;
     transition: 0.3s ease-in-out;
     cursor: pointer;
-
 }
 
-.Cart-Button:hover {
+/* Effect on hover */
+
+.bottom__details-btn:hover {
     background-color: #F5F5F5;
-    color: #050505;
-    border: solid 0.13rem #050505;
-
+    color: #1a1a1aeb;
+    border: solid 0.13rem #1a1a1aeb;
 }
 
-.Wish-Button {
+@media screen and (max-width: 1024px) {
+    .bottom__details-btn {
+        font-size: 0.8rem;
+        width: 90%;
+    }
+}
+
+
+/* ------------------------------------- */
+
+/* Bottom container: Wish button */
+
+.bottom__wish-btn {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -114,7 +163,28 @@
     cursor: pointer;
 }
 
-.Modal-Info {
+
+@media screen and (max-width: 1024px) {
+
+    .bottom__wish-btn {
+        min-width: 2.2rem;
+        min-height: 2.5rem;
+    }
+
+    .wish__btn-img {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+
+/* ------------------------------------- */
+
+
+
+
+
+.manga-card__info {
     display: none;
     flex-direction: column;
     padding: 2rem 0.5rem;
@@ -133,7 +203,7 @@
     border-radius: 0.5rem;
 }
 
-.Modal-Info.show {
+.manga-card__info.show {
     position: absolute;
     display: flex;
     align-items: center;
