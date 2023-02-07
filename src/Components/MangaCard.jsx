@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react'
 export const MangaCard = (props) => {
 
     const [showInfo, setShowInfo] = useState(false);
+    const [isLiked, setIsLiked] = useState(false);
 
     const FormatPrice = `$${props.Precio}`
 
@@ -26,8 +27,10 @@ export const MangaCard = (props) => {
 
             <div className="manga-card__bottom">
                 <button className="Cart-Button" onClick={() => setShowInfo(!showInfo)}>View details</button>
-                <button className="Wish-Button" >
-                    <img className="Wish-Heart" src="/src/assets/icons/ico-like.png" alt="" width="28px" />
+                <button className="Wish-Button" onClick={() => setIsLiked(!isLiked)}>
+                    <img className="Wish-Heart" alt="" width="28px"
+                        src={isLiked ? '/src/assets/icons/ico-liked.png' : '/src/assets/icons/ico-like.png'}
+                    />
                 </button>
             </div>
 
