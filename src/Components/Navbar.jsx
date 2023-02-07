@@ -1,6 +1,9 @@
 import '../styles/Navbar.css'
+import { useState, useEffect } from 'react';
 
 export const TopNavbar = () => {
+    const [search, setSearch] = useState('');
+
     return (
         <div className="nav-main-div" >
             <div className="navbar-div">
@@ -10,7 +13,10 @@ export const TopNavbar = () => {
                 </div>
 
                 <div className="nav-search-div">
-                    <input type="text" className="nav-input" placeholder="Buscar..." />
+                    <input
+                        type="text" className="nav-input" placeholder="Buscar..."
+                        onChange={(e) => setSearch(e.target.value)}
+                    />
                     <div className="nav-button btn_common">
                         <i className="fas fa-search"></i>
                     </div>

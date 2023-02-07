@@ -38,17 +38,18 @@ export const MangaTab = () => {
     return (
         <>
             <section className="mainbox">
-                {dataSlice.map((Manga, index) => {
-                    return (
-                        <MangaCard
-                            key={index}
-                            Titulo={Manga.Titulo}
-                            Imagen={Manga.Imagen}
-                            Stock={Manga.Stock}
-                            Precio={Manga.Precio}
-                        />
-                    )
-                })}
+                {
+                    dataSlice.map((Manga, index) => {
+                        return (
+                            <MangaCard
+                                key={index}
+                                Titulo={Manga.Titulo}
+                                Background={Manga.Background}
+                                Imagen={Manga.Imagen}
+                                Precio={Manga.Precio}
+                            />
+                        )
+                    })}
             </section>
 
             <Paginacion Page={Page} setPage={setPage} MaxOfTabs={MaxOfTabs} />
