@@ -19,9 +19,12 @@ const calculateMaxofTabs = (Mangas, NumPerPage) => {
 export const MangaTab = () => {
 
     const [Page, setPage] = useState(1)
-    const [NumPerPage, setNumPerPage] = useState(9)
+    const [NumPerPage, setNumPerPage] = useState(12)
 
-    const Mangas = useFetchData('http://localhost:3000/api/mangas',
+    const localURL = 'http://localhost:3000/api/mangas'
+    const deployURL = 'https://mangastore-api-production.up.railway.app/api/mangas'
+
+    const Mangas = useFetchData(deployURL,
         'GET', {
         'Content-Type': 'application/json'
     })

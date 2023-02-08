@@ -9,7 +9,7 @@
     right: auto;
     bottom: auto;
 
-    color: #F5F5F5;
+    color: var(--black);
     background-color: #1a1919fb;
     transition: all 0.3s ease-in-out;
 

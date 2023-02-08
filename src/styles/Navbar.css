@@ -1,19 +1,22 @@
-/* Top y Head bar */
+/* Main div */
 
-.nav-main-div {
+.nav-bar__main-div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+/* HR BAR */
 
-.nav-main-div>hr {
+.nav-bar__main-div>hr {
     margin-top: -0.2rem;
     width: 100%;
 }
 
-.navbar-div {
+/* Navbar div */
+
+.nav-bar__div {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -22,51 +25,71 @@
     width: 100%;
 }
 
-.nav-title-div>h3 {
+/* Title / left */
+
+.nav-bar__title-div {
+    width: 20%;
+}
+
+.nav-bar__title {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #050505;
+    color: var(--black);
 }
 
-.nav-search-div {
+/* ----------------- */
+
+
+.nav-bar__search-div {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    width: 60%;
 }
 
-.nav-input {
-    height: 1rem;
+.search-bar__input {
+    height: 2rem;
+    color: var(--black);
+    width: 40%;
+    padding: 0.2rem 0 0.2rem 1rem;
+    font-size: larger;
+    border-radius: 0.3rem 0rem 0rem 0.3rem;
     border: solid 1px;
-    padding: 0.6rem 0.5rem;
-    font-size: 1rem;
-    color: #050505;
-    border-radius: 1rem;
-    padding-left: 1rem;
+    border-color: var(--black);
 }
 
-.nav-button {
-    background-color: rgb(216, 5, 5);
-    color: #F5F5F5;
+
+.search-bar__button {
+    background-color: var(--red);
+    color: var(--white);
+
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 0.6rem;
-    border-radius: 0 1rem 1rem 0;
-    border: 1px solid #050505;
-    translate: -2.2rem;
-
+    width: 5%;
+    height: 2rem;
+    padding: 0.2rem 0;
+    border: solid 1px;
+    border-color: var(--black);
+    border-radius: 0rem 0.3rem 0.3rem 0rem;
+    cursor: pointer;
 }
 
-.nav-select {
-    background-color: #F5F5F5;
-    color: #050505;
+
+
+.nav-bar__filter-div {
+    background-color: var(--white);
+    color: var(--red);
+
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    border: 1px solid #050505;
-    padding: 0.5rem;
-    border-radius: 0.6rem;
+    width: 20%;
+}
+
+.filter__sub-div {
+    display: none;
 }

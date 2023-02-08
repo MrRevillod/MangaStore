@@ -5,28 +5,34 @@ export const TopNavbar = () => {
     const [search, setSearch] = useState('');
 
     return (
-        <nav className="nav-main-div" >
-            <div className="navbar-div">
+        <nav className="nav-bar__main-div" >
+            <div className="nav-bar__div">
 
-                <div className="nav-title-div">
-                    <h3 className="nav-title-h3">Catálogo</h3>
+                <div className="nav-bar__title-div">
+                    <h3 className="nav-bar__title">Catálogo</h3>
                 </div>
 
-                <div className="nav-search-div">
+                <div className="nav-bar__search-div">
                     <input
-                        type="text" className="nav-input" placeholder="Buscar..."
+                        type="text" className="search-bar__input" placeholder="Buscar..."
                         onChange={(e) => setSearch(e.target.value)}
                     />
-                    <div className="nav-button btn_common">
+                    <div className="search-bar__button btn_common">
                         <i className="fas fa-search"></i>
                     </div>
                 </div>
 
-                <div className="nav-filter-div">
-                    <select className="nav-select">
-                        <option value="">Nombre</option>
-                        <option value="">Precio</option>
-                    </select>
+                <div className="nav-bar__filter-div">
+                    <p>Filtrar contenido</p>
+                    <div className="filter__sub-div">
+                        <p>Option</p>
+                    </div>
+                    <div className="filter__sub-div">
+                        <p>Option</p>
+                    </div>
+                    <div className="filter__sub-div">
+                        <p>Option</p>
+                    </div>
                 </div>
             </div>
             <hr />

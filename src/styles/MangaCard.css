@@ -43,11 +43,16 @@
 
 /* Disable transition on mobile */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
     .manga-card__img-box {
         max-width: 100%;
         max-height: 100%;
     }
+
+
+}
+
+@media screen and (max-width: 1024px) {
 
     .manga-card__img-box:hover {
         transform: none;
@@ -88,7 +93,6 @@
 
 @media screen and (max-width: 1024px) {
     .manga-card__bottom {
-        width: 100%;
         margin-bottom: 1rem;
     }
 }
@@ -112,7 +116,7 @@
     width: 85%;
 
     background-color: #1a1a1aeb;
-    color: #F5F5F5;
+    color: var(--white);
 
     font-weight: 600;
     font-size: 1.1rem;
@@ -127,7 +131,7 @@
 /* Effect on hover */
 
 .bottom__details-btn:hover {
-    background-color: #F5F5F5;
+    background-color: var(--white);
     color: #1a1a1aeb;
     border: solid 0.13rem #1a1a1aeb;
 }
@@ -152,8 +156,8 @@
     width: 2.5rem;
     height: 2.5rem;
 
-    background-color: rgb(216, 5, 5);
-    color: #F5F5F5;
+    background-color: var(--red);
+    color: var(--white);
 
     font-size: 1.2rem;
 
