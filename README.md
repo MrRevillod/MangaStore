@@ -1,5 +1,5 @@
 # MangaStore
-Proyecto prototipo de tienda de mangas
+#### Proyecto prototipo de tienda de mangas
 
 ## Vanilla JS 
 
