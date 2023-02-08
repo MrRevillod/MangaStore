@@ -5,7 +5,7 @@ export const TopNavbar = () => {
     const [search, setSearch] = useState('');
 
     return (
-        <div className="nav-main-div" >
+        <nav className="nav-main-div" >
             <div className="navbar-div">
 
                 <div className="nav-title-div">
@@ -30,6 +30,6 @@ export const TopNavbar = () => {
                 </div>
             </div>
             <hr />
-        </div>
+        </nav>
     );
 }; 

@@ -1,0 +1,52 @@
+.manga-card__info {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+
+    color: #F5F5F5;
+    background-color: #1a1919fb;
+    transition: all 0.3s ease-in-out;
+
+    border-radius: 0.5rem;
+    padding: 2rem 0.5rem;
+}
+
+.manga-card__info>h4 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.manga-card__info>p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+
+.manga-card__info.show {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+    animation: modalinfo 0.4s ease-in-out;
+}
+
+@keyframes modalinfo {
+    0% {
+        opacity: 0;
+        transform: translateY(-20%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
