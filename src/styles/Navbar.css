@@ -80,15 +80,31 @@
 
 
 .nav-bar__filter-div {
-    background-color: var(--white);
-    color: var(--red);
+    color: var(--black);
 
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+
     width: 20%;
+    cursor: pointer;
 }
+
+.filter__main-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.filter__main-div>img {
+    background-color: var(--white);
+    border-radius: 2rem;
+    padding: 0.1rem;
+}
+
 
 .filter__sub-div {
     display: none;

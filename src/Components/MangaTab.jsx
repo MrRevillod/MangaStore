@@ -21,6 +21,9 @@ export const MangaTab = () => {
     const [Page, setPage] = useState(1)
     const [NumPerPage, setNumPerPage] = useState(12)
 
+
+    //URL - Local y Deploy
+
     const localURL = 'http://localhost:3000/api/mangas'
     const deployURL = 'https://mangastore-api-production.up.railway.app/api/mangas'
 

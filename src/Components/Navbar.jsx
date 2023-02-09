@@ -1,8 +1,7 @@
 import '../styles/Navbar.css'
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
-export const TopNavbar = () => {
-    const [search, setSearch] = useState('');
+export const TopNavbar = ({ imgDeploy }) => {
 
     return (
         <nav className="nav-bar__main-div" >
@@ -13,17 +12,17 @@ export const TopNavbar = () => {
                 </div>
 
                 <div className="nav-bar__search-div">
-                    <input
-                        type="text" className="search-bar__input" placeholder="Buscar..."
-                        onChange={(e) => setSearch(e.target.value)}
-                    />
+                    <input type="text" className="search-bar__input" placeholder="Buscar..." />
                     <div className="search-bar__button btn_common">
                         <i className="fas fa-search"></i>
                     </div>
                 </div>
 
                 <div className="nav-bar__filter-div">
-                    <p>Filtrar contenido</p>
+                    <div className='filter__main-div'>
+                        <p>Filtrar contenido</p>
+                        <img src={imgDeploy} alt="" width={'20px'} />
+                    </div>
                     <div className="filter__sub-div">
                         <p>Option</p>
                     </div>
@@ -38,4 +37,8 @@ export const TopNavbar = () => {
             <hr />
         </nav>
     );
-}; 
+};
+
+
+
+

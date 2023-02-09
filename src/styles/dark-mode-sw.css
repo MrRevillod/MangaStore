@@ -56,8 +56,27 @@
     background-color: #2e2e2e;
 }
 
-@media (min-width: 250px) and (max-width: 769px) {
-    .hd-dark-switcher {
-        display: none;
-    }
+
+.dark-theme .manga-card__img-box {
+    box-shadow: rgba(56, 56, 56, 0.912) 5px 6px 10px;
+}
+
+
+.dark-theme .bottom__details-btn {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.dark-theme .bottom__details-btn:hover {
+    background-color: #272727;
+    color: var(--white);
+    border: 1px solid var(--white);
+}
+
+.dark-theme .nav-bar__title {
+    color: var(--white);
+}
+
+.dark-theme .nav-bar__filter-div {
+    color: var(--white);
 }
