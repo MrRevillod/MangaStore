@@ -1,44 +1,34 @@
 import '../styles/Navbar.css'
-import { useState } from 'react';
+import { DropdownMenu } from './DropdownMenu'
+import { SearchBar } from './SearchBar';
 
-export const TopNavbar = ({ imgDeploy }) => {
+export const TopNavbar = ({ iconFilter }) => {
+
+    const items = [
+        "Predeterminado", "A - Z",
+        "Ordenar por precio menor a mayor",
+        "Ordenar por precio mayor a menor"
+    ]
 
     return (
         <nav className="nav-bar__main-div" >
+
             <div className="nav-bar__div">
 
                 <div className="nav-bar__title-div">
                     <h3 className="nav-bar__title">Catálogo</h3>
                 </div>
 
-                <div className="nav-bar__search-div">
-                    <input type="text" className="search-bar__input" placeholder="Buscar..." />
-                    <div className="search-bar__button btn_common">
-                        <i className="fas fa-search"></i>
-                    </div>
-                </div>
+                <SearchBar />
 
-                <div className="nav-bar__filter-div">
-                    <div className='filter__main-div'>
-                        <p>Filtrar contenido</p>
-                        <img src={imgDeploy} alt="" width={'20px'} />
-                    </div>
-                    <div className="filter__sub-div">
-                        <p>Option</p>
-                    </div>
-                    <div className="filter__sub-div">
-                        <p>Option</p>
-                    </div>
-                    <div className="filter__sub-div">
-                        <p>Option</p>
-                    </div>
-                </div>
+                <DropdownMenu
+                    iconFilter={iconFilter}
+                    textFilter="Filtrar contenido"
+                    listItems={items}
+                />
             </div>
             <hr />
+
         </nav>
-    );
-};
-
-
-
-
+    )
+}

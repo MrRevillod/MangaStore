@@ -14,8 +14,7 @@ const root = ReactDOM.createRoot(RootID);
 root.render(<>
 	<Header Title="Manga Store" />
 	<main className="main">
-		<TopNavbar
-			imgDeploy={'/src/assets/icons/ico-deploy-black.png'} />
+		<TopNavbar iconFilter={'/src/assets/icons/ico-deploy-black.png'} />
 		<MangaTab />
 	</main>
 	<Footer />

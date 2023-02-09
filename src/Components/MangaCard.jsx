@@ -7,18 +7,18 @@ const FormatPrice = Price => `$${Price}`
 
 export const MangaCard = ({ Imagen, Background, Titulo, Autor, Precio, likeIco, unlikeIco }) => {
 
-    const [showInfo, setShowInfo] = useState(false);
-    const [isLiked, setIsLiked] = useState(false);
+    const [showInfo, setShowInfo] = useState(false)
+    const [isLiked, setIsLiked] = useState(false)
 
-    const modalTarget = (e) => e.target.className !== 'bottom__details-btn' ? setShowInfo(false) : null;
+    const modalTarget = (e) => e.target.className !== 'bottom__details-btn' ? setShowInfo(false) : null
 
     useEffect(() => {
-        document.addEventListener('click', modalTarget);
+        document.addEventListener('click', modalTarget)
 
         return () => {
-            document.removeEventListener('click', modalTarget);
-        };
-    }, []);
+            document.removeEventListener('click', modalTarget)
+        }
+    }, [])
 
     return (
         <div className="manga-card">
