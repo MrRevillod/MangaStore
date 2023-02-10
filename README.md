@@ -9,12 +9,12 @@
 
 ![imagen](https://user-images.githubusercontent.com/104238144/211394417-ed113480-0133-4ff9-846f-520e39d564ae.png)
 
-![imagen](https://user-images.githubusercontent.com/104238144/218167942-6a374405-6c02-4f7b-86cc-681a1d4bef78.png)
+
 
 
 ## React JS
 
-![imagen](https://user-images.githubusercontent.com/104238144/218166345-70eab1d4-dd82-4ad2-aec3-a5435b57fc3b.png)
+![imagen](https://user-images.githubusercontent.com/104238144/218167942-6a374405-6c02-4f7b-86cc-681a1d4bef78.png)
 
 ![imagen](https://user-images.githubusercontent.com/104238144/218166259-d744221b-3a0e-49b3-802d-0dfcecebb615.png)
 
