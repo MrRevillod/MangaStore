@@ -1,10 +1,11 @@
+import React from 'react';
+
 import '../styles/Navbar.css'
+
 import { DropdownMenu } from './DropdownMenu'
 import { SearchBar } from './SearchBar';
-import React, { useContext } from 'react';
 
 const itemContext = React.createContext();
-
 
 export const TopNavbar = ({ iconFilter }) => {
 
