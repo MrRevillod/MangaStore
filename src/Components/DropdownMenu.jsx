@@ -1,6 +1,6 @@
-import { useState, useEffect } from "react"
+import React, { useState, useEffect, useContext } from "react"
 
-export const DropdownMenu = ({ iconFilter, textFilter, listItems }) => {
+export const DropdownMenu = ({ iconFilter, textFilter, listItems, onItemClick }) => {
 
     //Estado `showMenu` que indica si el menú desplegable está visible o no
     const [showMenu, setShowMenu] = useState(false)
@@ -42,7 +42,7 @@ export const DropdownMenu = ({ iconFilter, textFilter, listItems }) => {
                     {/* se muestran los elementos de la lista de `listItems` */}
 
                     {listItems.map((item, index) => (
-                        <p key={index}>{item}</p>
+                        <p key={index} >{item}</p>
                     ))}
 
                 </div>

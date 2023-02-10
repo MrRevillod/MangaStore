@@ -1,15 +1,15 @@
-import '../styles/Header.css';
-import '../styles/dark-mode-sw.css';
+import '../styles/Header.css'
+import '../styles/dark-mode-sw.css'
 
 const DarkModeSW = () => {
-    const tag = document.getElementsByTagName("body")[0];
+    const tag = document.getElementsByTagName("body")[0]
 
     return (
         <div className="hd-dark-switcher">
             <input type="checkbox" className="hd-toggle" onClick={() => tag.classList.toggle("dark-theme")} />
         </div>
-    );
-};
+    )
+}
 
 export const Header = ({ Title }) => {
     return (
@@ -21,5 +21,5 @@ export const Header = ({ Title }) => {
 
             <DarkModeSW />
         </header>
-    );
-};
+    )
+}

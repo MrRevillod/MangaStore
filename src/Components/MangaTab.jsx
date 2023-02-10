@@ -14,18 +14,20 @@ const calculateMaxofTabs = (Mangas, NumPerPage) => {
     rest > 0 ? MaxOfTabs += 1 : MaxOfTabs
 
     return MaxOfTabs
-};
+}
 
 export const MangaTab = () => {
 
     const [Page, setPage] = useState(1)
     const [NumPerPage, setNumPerPage] = useState(12)
+    const [filterType, setFilterType] = useState('default')
 
 
     //URL - Local y Deploy
 
     const localURL = 'http://localhost:3000/api/mangas'
     const deployURL = 'https://mangastore-api-production.up.railway.app/api/mangas'
+
 
     const Mangas = useFetchData(deployURL,
         'GET', {
