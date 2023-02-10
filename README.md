@@ -11,6 +11,7 @@
 
 ## React JS
 
-![imagen](https://user-images.githubusercontent.com/104238144/217155934-fd9bc323-2fce-4c00-b148-918b579e0ac6.png)
+![imagen](https://user-images.githubusercontent.com/104238144/218166345-70eab1d4-dd82-4ad2-aec3-a5435b57fc3b.png)
+
 ![imagen](https://user-images.githubusercontent.com/104238144/218166259-d744221b-3a0e-49b3-802d-0dfcecebb615.png)
 
