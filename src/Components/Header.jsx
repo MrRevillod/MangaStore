@@ -17,6 +17,7 @@ export const Header = ({ Title }) => {
             <div className="header-menu-div">
                 <img className="hd-menu-img" src="../../src/assets/icons/hd-menu-ico.png" alt="menu-ico" width="35px" />
             </div>
+
             <h1 className="hd-title">{Title}</h1>
 
             <DarkModeSW />

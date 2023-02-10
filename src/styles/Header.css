@@ -23,3 +23,19 @@
 
     translate: -1.1rem;
 }
+
+@media screen and (max-width: 635px) {
+
+    .header {
+        justify-content: space-evenly;
+        height: 15vh;
+    }
+
+    .hd-title {
+        font-size: 2rem;
+    }
+
+    .hd-menu-img {
+        width: 1.5rem;
+    }
+}
