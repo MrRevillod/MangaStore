@@ -43,6 +43,7 @@ export const MangaTab = () => {
 
                 {dataSlice.map((Manga, index) => {
                     return (
+
                         <MangaCard
                             key={index}
                             Titulo={Manga.Titulo}
@@ -50,9 +51,10 @@ export const MangaTab = () => {
                             Background={Manga.Background}
                             Imagen={Manga.Imagen}
                             Precio={Manga.Precio}
-                            likeIco='/src/assets/icons/ico-like.png'
-                            unlikeIco='/src/assets/icons/ico-liked.png'
+                            likeIco='src/assets/ico-like.png'
+                            unlikeIco='src/assets/ico-liked.png'
                         />
+
                     )
                 })}
 

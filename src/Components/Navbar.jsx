@@ -21,7 +21,7 @@ export const TopNavbar = ({ iconFilter }) => {
             <div className="nav-bar__div">
 
                 <div className="nav-bar__title-div">
-                    <h3 className="nav-bar__title">Catalogue</h3>
+                    <h3 className="nav-bar__title">Catálogo</h3>
                 </div>
 
                 <SearchBar />
