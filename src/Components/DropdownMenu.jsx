@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 
-export const DropdownMenu = ({ iconFilter, textFilter, listItems, onItemClick }) => {
+export const DropdownMenu = ({ iconFilter, textFilter, listItems }) => {
 
     //Estado `showMenu` que indica si el menú desplegable está visible o no
     const [showMenu, setShowMenu] = useState(false)

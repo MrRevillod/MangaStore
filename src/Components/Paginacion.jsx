@@ -15,13 +15,13 @@ export const Paginacion = ({ Page, setPage, MaxOfTabs }) => {
         <>
             <div className="paginacion-div">
                 <button key="prev-btn" className="pag-buttons" onClick={prevPage}>
-                    <img src="src/assets/btn-left.png" alt="prev" />
+                    <img src="/src/assets/btn-left.png" alt="prev" />
                 </button>
 
                 <p className="pag-number">{Page} de {MaxOfTabs}</p>
 
                 <button key="next-btn" className="pag-buttons" onClick={nextPage}>
-                    <img src="src/assets/btn-right.png" alt="next" />
+                    <img src="/src/assets/btn-right.png" alt="next" />
                 </button>
             </div >
             <hr />

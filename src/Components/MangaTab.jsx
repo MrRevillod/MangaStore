@@ -51,8 +51,8 @@ export const MangaTab = () => {
                             Background={Manga.Background}
                             Imagen={Manga.Imagen}
                             Precio={Manga.Precio}
-                            likeIco='src/assets/ico-like.png'
-                            unlikeIco='src/assets/ico-liked.png'
+                            likeIco='/src/assets/ico-like.png'
+                            unlikeIco='/src/assets/ico-liked.png'
                         />
 
                     )

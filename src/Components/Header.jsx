@@ -15,7 +15,7 @@ export const Header = ({ Title }) => {
     return (
         <header className="header">
             <div className="header-menu-div">
-                <img className="hd-menu-img" src="src/assets/hd-menu-ico.png" alt="menu-ico" width="35px" />
+                <img className="hd-menu-img" src="/src/assets/hd-menu-ico.png" alt="menu-ico" width="35px" />
             </div>
 
             <h1 className="hd-title">{Title}</h1>
