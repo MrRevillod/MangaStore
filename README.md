@@ -14,7 +14,7 @@
 
 ## React JS
 
-![imagen](https://user-images.githubusercontent.com/104238144/218167942-6a374405-6c02-4f7b-86cc-681a1d4bef78.png)
+![imagen](https://user-images.githubusercontent.com/104238144/220507041-72798a05-8c06-4bd5-b05c-82059ea21ed5.png)
 
 ![imagen](https://user-images.githubusercontent.com/104238144/218166259-d744221b-3a0e-49b3-802d-0dfcecebb615.png)
 
@@ -22,4 +22,4 @@
 
 ![imagen](https://user-images.githubusercontent.com/104238144/218167736-301c8976-d13d-4529-9ca8-a969e23073e2.png)
 
-![imagen](https://user-images.githubusercontent.com/104238144/220507041-72798a05-8c06-4bd5-b05c-82059ea21ed5.png)
+
