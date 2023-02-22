@@ -13,15 +13,13 @@
 
 
 ## React JS
+![imagen](https://user-images.githubusercontent.com/104238144/220507592-11201499-6731-440a-a137-edf0170a298f.png)
 
-![imagen](https://user-images.githubusercontent.com/104238144/220507041-72798a05-8c06-4bd5-b05c-82059ea21ed5.png)
 
 ![imagen](https://user-images.githubusercontent.com/104238144/218166259-d744221b-3a0e-49b3-802d-0dfcecebb615.png)
 
 ![imagen](https://user-images.githubusercontent.com/104238144/218166621-516c2de2-c4a4-4c0b-8c61-3267ea66d885.png)
 
 ![imagen](https://user-images.githubusercontent.com/104238144/218167736-301c8976-d13d-4529-9ca8-a969e23073e2.png)
-
-![imagen](https://user-images.githubusercontent.com/104238144/220507317-589a90a5-2ef3-42d9-9948-3d3208f5cea9.png)
 
 
